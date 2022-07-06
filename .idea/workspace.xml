@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="de1f0c27-89ed-4ead-8a7b-7ecea7ee4b9d" name="变更" comment="init branches">
       <change afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/testapp/Demo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/testapp/Demo.kt" afterDir="false" />
     </list>
@@ -159,6 +160,7 @@
       <workItem from="1656773699515" duration="1643000" />
       <workItem from="1657103418037" duration="9324000" />
       <workItem from="1657112866301" duration="4283000" />
+      <workItem from="1657123447608" duration="306000" />
     </task>
     <task id="LOCAL-00001" summary="add support">
       <created>1657107235876</created>
@@ -202,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657118169869</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="init branches">
+      <created>1657123748625</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657123748625</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
