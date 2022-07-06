@@ -1,16 +1,11 @@
 import ink.bluecloud.css.CssResources;
-import ink.bluecloud.css.CssResourcesKt;
+import javafx.application.Application;
 import javafx.scene.Scene;
-import kotlin.Unit;
-import kotlin.jvm.functions.Function2;
-
-import java.util.List;
+import javafx.scene.control.TextField;
+import javafx.stage.Stage;
 
 public class test {
     public static void main(String[] args) {
-
-/*
-        new Scene().getStylesheets().add(CssResources.globalCssFile);
-*/
+        Application.launch(mains.class);
     }
 }
