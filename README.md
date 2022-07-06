@@ -9,7 +9,7 @@ Using:
 For Java:
 ```
         Scene scene = new Scene(root);
-        `scene.getStylesheets().add(CssResources.globalCssFile);`
+        scene.getStylesheets().add(CssResources.globalCssFile);
         /*或者：
         CssResourcesKt.themes(scene, (strings, cssResources) -> {
             strings.add(CssResources.globalCssFile);
