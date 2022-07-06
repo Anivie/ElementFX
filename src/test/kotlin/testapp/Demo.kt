@@ -15,10 +15,6 @@ import javafx.scene.control.TabPane
 import javafx.scene.control.TextField
 import javafx.scene.layout.*
 import javafx.stage.Stage
-import tornadofx.children
-import tornadofx.hbox
-import tornadofx.hgrow
-import tornadofx.tab
 
 class Demo:Application() {
     override fun start(primaryStage: Stage) {
