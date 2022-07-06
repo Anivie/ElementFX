@@ -1,5 +1,7 @@
+package devapp
+
+import devapp.treeview.treeview
 import javafx.application.Application
-import testapp.treeview
 import tornadofx.App
 import tornadofx.dumpStylesheets
 import tornadofx.reloadStylesheetsOnFocus

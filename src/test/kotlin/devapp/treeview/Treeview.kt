@@ -1,5 +1,8 @@
-package testapp
+package devapp.treeview
 
+import devapp.CloudStyleGlobal
+import javafx.scene.control.Button
+import javafx.scene.control.TabPane
 import javafx.scene.control.TreeItem
 import tornadofx.*
 
@@ -37,6 +40,7 @@ class treeview : View() {
         }
 
         addStylesheet(TreeClass::class)
+        addStylesheet(CloudStyleGlobal::class)
     }
 }
 

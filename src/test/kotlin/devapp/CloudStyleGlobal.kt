@@ -1,3 +1,6 @@
+package devapp
+
+import javafx.scene.Cursor
 import javafx.scene.Cursor.HAND
 import javafx.scene.paint.Color
 import javafx.scene.paint.Color.*
@@ -589,25 +592,19 @@ class CloudStyleGlobal:Stylesheet() {
                 }
             }
 
-            and(focused) {
-                tab and selected {
+            tab {
+                and(selected) {
                     borderColor += box(c(64,158,255))
 
                     tabLabel {
                         textFill = c(64,158,255)
                     }
                 }
-                tab and hover {
+                and(hover) {
                     tabLabel {
                         textFill = c(64,158,255)
                     }
                 }
-            }
-
-            tab {
-
-
-
 
                 tabLabel {
                     fontSize = 15.px
@@ -722,6 +719,32 @@ class CloudStyleGlobal:Stylesheet() {
             bar {
                 backgroundColor += c(64,158,255)
             }
+        }
+
+        treeView {
+            treeCell {
+                and(hover) {
+                    backgroundColor += c(245,247,250)
+                }
+                and (selected) {
+                    backgroundColor += c(245,247,250)
+                }
+                and(empty) {
+                    backgroundColor += Color.TRANSPARENT
+                }
+
+                treeDisclosureNode {
+                    arrow {
+                        backgroundColor += c(168,171,178)
+                    }
+                }
+
+                backgroundColor += WHITE
+                textFill = BLACK
+                cursor = HAND
+            }
+
+            backgroundColor += WHITE
         }
     }
 }

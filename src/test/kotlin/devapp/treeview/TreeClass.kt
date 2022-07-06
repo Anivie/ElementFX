@@ -1,4 +1,4 @@
-package testapp
+package devapp.treeview
 
 import javafx.scene.Cursor
 import javafx.scene.paint.Color
