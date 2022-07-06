@@ -9,22 +9,45 @@ Using:
 For Java:
 ```
         Scene scene = new Scene(root);
-        scene.getStylesheets().add("ElementFX_Snapshot.css");
+        scene.getStylesheets().add(CssResources.globalCssFile);
+        /*或者：
+        CssResourcesKt.themes(scene, (strings, cssResources) -> {
+            strings.add(CssResources.globalCssFile);
+            strings.add(CssResources.buttonCssFile);//可选，用于每个组件可单独调整主题
+            return null;
+        });
+        */
         primaryStage.setScene(scene);
         primaryStage.setTitle("ElementForJavaFX");
         primaryStage.show();
 ```
+
+
 For Kotlin:
 
 ```
     primaryStage.run {
-        scene = Scene(root).apply {
-            stylesheets += "ElementFX_Snapshot.css"
+        scene = Scene(root,400.0,400.0).apply {
+            themes {
+                this += it.globalCssFile
+                this += it.buttonCssFile//可选，用于每个组件可单独调整主题
+            }
         }
         title = "ElementForJavaFX"
         show()
     }
 ```
+
+todo:
+为每个组件单独调整主题:
+例如：
+```
+        val regButton = Button("Register").apply {
+            theme(ElementButton.orangeButton)
+        }
+```
+
+
 
 当前支持的组件:
 
