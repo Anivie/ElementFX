@@ -9,11 +9,16 @@ Using:
 For Java:
 ```
         Scene scene = new Scene(root);
-        scene.getStylesheets().add("ElementFX_Snapshot.css");
+        CssResourcesKt.themes(scene, (strings, cssResources) -> {
+            strings.add(CssResources.globalCssFile);
+            return null;
+        });
         primaryStage.setScene(scene);
         primaryStage.setTitle("ElementForJavaFX");
         primaryStage.show();
 ```
+
+
 For Kotlin:
 
 ```
