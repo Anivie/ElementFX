@@ -48,7 +48,7 @@ todo:
         }
 ```
 
-当前仅支持Textfield和Button
+<font color="red" size="5px">当前仅支持TextField和Button</font>
 
 当前支持的组件:
 
