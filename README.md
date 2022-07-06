@@ -11,6 +11,7 @@ For Java:
         Scene scene = new Scene(root);
         CssResourcesKt.themes(scene, (strings, cssResources) -> {
             strings.add(CssResources.globalCssFile);
+            strings.add(CssResources.buttonCssFile);
             return null;
         });
         primaryStage.setScene(scene);
