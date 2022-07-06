@@ -11,7 +11,7 @@ For Java:
         Scene scene = new Scene(root);
         CssResourcesKt.themes(scene, (strings, cssResources) -> {
             strings.add(CssResources.globalCssFile);
-            strings.add(CssResources.buttonCssFile);
+            strings.add(CssResources.buttonCssFile);//可选，用于每个组件可单独调整主题
             return null;
         });
         primaryStage.setScene(scene);
@@ -27,7 +27,7 @@ For Kotlin:
         scene = Scene(root,400.0,400.0).apply {
             themes {
                 this += it.globalCssFile
-                this += it.buttonCssFile
+                this += it.buttonCssFile//可选，用于每个组件可单独调整主题
             }
         }
         title = "ElementForJavaFX"
