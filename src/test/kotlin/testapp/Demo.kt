@@ -28,7 +28,7 @@ class Demo:Application() {
         val root = TabPane().apply {
             tabs += Tab("PersonalUser").apply {
                 content = VBox(10.0).apply {
-                    children +=GridPane().apply {
+                    children += GridPane().apply {
                         add(Label("Name:"),0,0)
                         add(TextField(),1,0)
 
