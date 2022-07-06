@@ -7,18 +7,12 @@ import javafx.application.Application
 import javafx.geometry.Insets
 import javafx.geometry.Pos
 import javafx.scene.Scene
-import javafx.scene.control.Button
-import javafx.scene.control.CheckBox
-import javafx.scene.control.Label
-import javafx.scene.control.Tab
-import javafx.scene.control.TabPane
-import javafx.scene.control.TextField
-import javafx.scene.layout.*
+import javafx.scene.control.*
+import javafx.scene.layout.GridPane
+import javafx.scene.layout.HBox
+import javafx.scene.layout.Priority
+import javafx.scene.layout.VBox
 import javafx.stage.Stage
-import tornadofx.children
-import tornadofx.hbox
-import tornadofx.hgrow
-import tornadofx.tab
 
 class Demo:Application() {
     override fun start(primaryStage: Stage) {
