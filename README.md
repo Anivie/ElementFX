@@ -18,13 +18,27 @@ For Kotlin:
 
 ```
     primaryStage.run {
-        scene = Scene(root).apply {
-            stylesheets += "ElementFX_Snapshot.css"
+        scene = Scene(root,400.0,400.0).apply {
+            themes {
+                this += it.globalCssFile
+                this += it.buttonCssFile
+            }
         }
         title = "ElementForJavaFX"
         show()
     }
 ```
+
+todo:
+为每个组件单独调整主题:
+例如：
+```
+        val regButton = Button("Register").apply {
+            theme(ElementButton.orangeButton)
+        }
+```
+
+
 
 当前支持的组件:
 
