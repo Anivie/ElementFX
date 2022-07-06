@@ -1,5 +1,3 @@
-package testapp
-
 import javafx.scene.Cursor.HAND
 import javafx.scene.paint.Color
 import javafx.scene.paint.Color.*
@@ -440,7 +438,7 @@ class CloudStyleGlobal:Stylesheet() {
                 dateCell {
                     and(hover) {
                         backgroundColor += c(245,245,245)
-                        textFill = Color.BLACK
+                        textFill = BLACK
                     }
                     and(focused) {
                         backgroundColor += c(24,144,255)
@@ -500,7 +498,7 @@ class CloudStyleGlobal:Stylesheet() {
                 and(selected) {
                     backgroundColor += c(236,245,255)
                     text {
-                        fill = Color.BLACK
+                        fill = BLACK
                     }
                 }
 
@@ -510,7 +508,7 @@ class CloudStyleGlobal:Stylesheet() {
 
             tableCell {
                 and(selected) {
-                    textFill = Color.BLACK
+                    textFill = BLACK
                 }
 
                 padding = box(10.px)
