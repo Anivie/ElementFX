@@ -1,0 +1,111 @@
+.white-button {
+    -fx-font-size: 15px;
+    -fx-cursor: HAND;
+    -fx-background-color: rgba(255, 255, 255, 1);
+    -fx-border-color: rgba(220, 223, 230, 1) rgba(220, 223, 230, 1) rgba(220, 223, 230, 1) rgba(220, 223, 230, 1);
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-background-radius: 5px 5px 5px 5px;
+}
+.white-button:hover {
+    -fx-background-color: white;
+    -fx-border-color: rgba(198, 226, 255, 1) rgba(198, 226, 255, 1) rgba(198, 226, 255, 1) rgba(198, 226, 255, 1);
+    -fx-text-fill: rgba(64, 158, 255, 1);
+}
+.white-button:pressed {
+    -fx-border-color: rgba(64, 158, 255, 1) rgba(64, 158, 255, 1) rgba(64, 158, 255, 1) rgba(64, 158, 255, 1);
+}
+.default-button {
+    -fx-font-size: 15px;
+    -fx-cursor: HAND;
+    -fx-background-color: rgba(236, 245, 255, 1);
+    -fx-background-radius: 5px 5px 5px 5px;
+    -fx-border-color: rgba(179, 216, 255, 1) rgba(179, 216, 255, 1) rgba(179, 216, 255, 1) rgba(179, 216, 255, 1);
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-text-fill: rgba(64, 158, 255, 1);
+}
+.default-button:hover {
+    -fx-background-color: rgba(64, 158, 255, 1);
+    -fx-border-color: rgba(64, 158, 255, 1) rgba(64, 158, 255, 1) rgba(64, 158, 255, 1) rgba(64, 158, 255, 1);
+    -fx-text-fill: rgba(255, 255, 255, 1);
+}
+.default-button:pressed {
+    -fx-background-color: rgba(58, 142, 230, 1);
+    -fx-border-color: rgba(58, 142, 230, 1) rgba(58, 142, 230, 1) rgba(58, 142, 230, 1) rgba(58, 142, 230, 1);
+    -fx-text-fill: rgba(255, 255, 255, 1);
+}
+.green-button {
+    -fx-font-size: 15px;
+    -fx-cursor: HAND;
+    -fx-background-color: rgba(240, 249, 235, 1);
+    -fx-background-radius: 5px 5px 5px 5px;
+    -fx-border-color: rgba(179, 225, 157, 1) rgba(179, 225, 157, 1) rgba(179, 225, 157, 1) rgba(179, 225, 157, 1);
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-text-fill: rgba(113, 198, 71, 1);
+}
+.green-button:hover {
+    -fx-background-color: rgba(103, 194, 58, 1);
+    -fx-border-color: rgba(103, 194, 58, 1) rgba(103, 194, 58, 1) rgba(103, 194, 58, 1) rgba(103, 194, 58, 1);
+    -fx-text-fill: rgba(255, 255, 255, 1);
+}
+.green-button:pressed {
+    -fx-background-color: rgba(82, 155, 46, 1);
+    -fx-border-color: rgba(82, 155, 46, 1) rgba(82, 155, 46, 1) rgba(82, 155, 46, 1) rgba(82, 155, 46, 1);
+    -fx-text-fill: rgba(255, 255, 255, 1);
+}
+.gray-button {
+    -fx-font-size: 15px;
+    -fx-cursor: HAND;
+    -fx-background-color: rgba(244, 244, 245, 1);
+    -fx-background-radius: 5px 5px 5px 5px;
+    -fx-border-color: rgba(200, 201, 204, 1) rgba(200, 201, 204, 1) rgba(200, 201, 204, 1) rgba(200, 201, 204, 1);
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-text-fill: rgba(153, 156, 161, 1);
+}
+.gray-button:hover {
+    -fx-background-color: rgba(144, 147, 153, 1);
+    -fx-border-color: rgba(144, 147, 153, 1) rgba(144, 147, 153, 1) rgba(144, 147, 153, 1) rgba(144, 147, 153, 1);
+    -fx-text-fill: rgba(255, 255, 255, 1);
+}
+.gray-button:pressed {
+    -fx-background-color: rgba(115, 118, 122, 1);
+    -fx-border-color: rgba(115, 118, 122, 1) rgba(115, 118, 122, 1) rgba(115, 118, 122, 1) rgba(115, 118, 122, 1);
+    -fx-text-fill: rgba(255, 255, 255, 1);
+}
+.orange-button {
+    -fx-font-size: 15px;
+    -fx-cursor: HAND;
+    -fx-background-color: rgba(253, 246, 236, 1);
+    -fx-background-radius: 5px 5px 5px 5px;
+    -fx-border-color: rgba(243, 209, 158, 1) rgba(243, 209, 158, 1) rgba(243, 209, 158, 1) rgba(243, 209, 158, 1);
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-text-fill: rgba(234, 175, 86, 1);
+}
+.orange-button:hover {
+    -fx-background-color: rgba(230, 162, 60, 1);
+    -fx-border-color: rgba(230, 162, 60, 1) rgba(230, 162, 60, 1) rgba(230, 162, 60, 1) rgba(230, 162, 60, 1);
+    -fx-text-fill: rgba(255, 255, 255, 1);
+}
+.orange-button:pressed {
+    -fx-background-color: rgba(184, 130, 48, 1);
+    -fx-border-color: rgba(184, 130, 48, 1) rgba(184, 130, 48, 1) rgba(184, 130, 48, 1) rgba(184, 130, 48, 1);
+    -fx-text-fill: rgba(255, 255, 255, 1);
+}
+.red-button {
+    -fx-font-size: 15px;
+    -fx-cursor: HAND;
+    -fx-background-color: rgba(254, 240, 240, 1);
+    -fx-background-radius: 5px 5px 5px 5px;
+    -fx-border-color: rgba(250, 182, 182, 1) rgba(250, 182, 182, 1) rgba(250, 182, 182, 1) rgba(250, 182, 182, 1);
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-text-fill: rgba(245, 113, 113, 1);
+}
+.red-button:hover {
+    -fx-background-color: rgba(245, 108, 108, 1);
+    -fx-border-color: rgba(245, 108, 108, 1) rgba(245, 108, 108, 1) rgba(245, 108, 108, 1) rgba(245, 108, 108, 1);
+    -fx-text-fill: rgba(255, 255, 255, 1);
+}
+.red-button:pressed {
+    -fx-background-color: rgba(196, 86, 86, 1);
+    -fx-border-color: rgba(196, 86, 86, 1) rgba(196, 86, 86, 1) rgba(196, 86, 86, 1) rgba(196, 86, 86, 1);
+    -fx-text-fill: rgba(255, 255, 255, 1);
+}
