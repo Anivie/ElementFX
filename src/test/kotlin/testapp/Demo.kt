@@ -1,6 +1,7 @@
 package testapp
 
 import ink.bluecloud.css.ElementButton
+import ink.bluecloud.css.ElementTextField
 import ink.bluecloud.css.theme
 import ink.bluecloud.css.themes
 import javafx.application.Application
@@ -59,7 +60,25 @@ class Demo:Application() {
                     alignment = Pos.CENTER
                 }
             }
-            tabs += Tab("BusinessUsers")
+            tabs += Tab("BusinessUsers").apply {
+                content = VBox().apply {
+                    children += TextField().apply {
+                        theme(ElementTextField.greenTextField)
+                    }
+                    children += TextField().apply {
+                        theme(ElementTextField.defaultTextField)
+                    }
+                    children += TextField().apply {
+                        theme(ElementTextField.grayTextField)
+                    }
+                    children += TextField().apply {
+                        theme(ElementTextField.orangeTextField)
+                    }
+                    children += TextField().apply {
+                        theme(ElementTextField.redTextField)
+                    }
+                }
+            }
 
             tabClosingPolicy = TabPane.TabClosingPolicy.UNAVAILABLE
             style = "-fx-background-color:white"
@@ -73,6 +92,7 @@ class Demo:Application() {
             themes {
                 this += it.globalCssFile
                 this += it.buttonCssFile
+                this += it.textFieldCssFile
             }
         }
         title = "Element"
@@ -80,6 +100,6 @@ class Demo:Application() {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     Application.launch(Demo::class.java)
 }

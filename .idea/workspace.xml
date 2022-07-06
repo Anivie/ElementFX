@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de1f0c27-89ed-4ead-8a7b-7ecea7ee4b9d" name="变更" comment="init branches">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ink/bluecloud/css/ElementTextField.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cloud_css/ElementTextField.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot/demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ink/bluecloud/css/CssResources.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ink/bluecloud/css/CssResources.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/testapp/Demo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/testapp/Demo.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
