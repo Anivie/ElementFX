@@ -9,11 +9,14 @@ Using:
 For Java:
 ```
         Scene scene = new Scene(root);
+        `scene.getStylesheets().add(CssResources.globalCssFile);`
+        /*或者：
         CssResourcesKt.themes(scene, (strings, cssResources) -> {
             strings.add(CssResources.globalCssFile);
             strings.add(CssResources.buttonCssFile);//可选，用于每个组件可单独调整主题
             return null;
         });
+        */
         primaryStage.setScene(scene);
         primaryStage.setTitle("ElementForJavaFX");
         primaryStage.show();
