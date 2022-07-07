@@ -38,8 +38,8 @@ For Kotlin:
 
 ### Note:
 
-本项目尚未在仓库中发布，您可以自行在out/production/resources/cloud_css中找到您需要的css文件通过JavaFx的api自行引入
-也可以在release中下载预览版本通过本地导入的方式引用
+本项目尚未在仓库中发布，您可以自行在out/production/resources/cloud_css中找到您需要的css文件通过JavaFx的api自行引入  
+也可以在release中下载预览版本通过本地导入的方式引用  
 具体用法请查看demo
 
 This project has not yet been released in the maven,but you can find the css file you need in out/production/resources/cloud_css and import it by JavaFx api.  
