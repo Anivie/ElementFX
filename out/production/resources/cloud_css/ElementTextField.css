@@ -1,0 +1,64 @@
+.default-text-field {
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-border-color: rgba(193, 197, 205, 1) rgba(193, 197, 205, 1) rgba(193, 197, 205, 1) rgba(193, 197, 205, 1);
+    -fx-border-width: 1.3px 1.3px 1.3px 1.3px;
+    -fx-accent: rgba(46, 188, 232, 1);
+    -fx-background-color: rgba(255, 255, 255, 1);
+    -fx-padding: 5px 3px 5px 3px;
+    -fx-font-size: 14px;
+}
+.default-text-field:focused {
+    -fx-border-color: rgba(50, 150, 255, 1) rgba(50, 150, 255, 1) rgba(50, 150, 255, 1) rgba(50, 150, 255, 1);
+}
+
+.green-text-field {
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-border-color: rgba(193, 197, 205, 1) rgba(193, 197, 205, 1) rgba(193, 197, 205, 1) rgba(193, 197, 205, 1);
+    -fx-border-width: 1.3px 1.3px 1.3px 1.3px;
+    -fx-accent:  #95d475;
+    -fx-background-color: rgba(255, 255, 255, 1);
+    -fx-padding: 5px 3px 5px 3px;
+    -fx-font-size: 14px;
+}
+.green-text-field:focused {
+    -fx-border-color: #67C23A;
+}
+
+.orange-text-field {
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-border-color: rgba(193, 197, 205, 1) rgba(193, 197, 205, 1) rgba(193, 197, 205, 1) rgba(193, 197, 205, 1);
+    -fx-border-width: 1.3px 1.3px 1.3px 1.3px;
+    -fx-accent:  #eebe77;
+    -fx-background-color: rgba(255, 255, 255, 1);
+    -fx-padding: 5px 3px 5px 3px;
+    -fx-font-size: 14px;
+}
+.orange-text-field:focused {
+    -fx-border-color: #E6A23C;
+}
+
+.gray-text-field {
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-border-color: rgba(193, 197, 205, 1) rgba(193, 197, 205, 1) rgba(193, 197, 205, 1) rgba(193, 197, 205, 1);
+    -fx-border-width: 1.3px 1.3px 1.3px 1.3px;
+    -fx-accent:  #b1b3b8;
+    -fx-background-color: rgba(255, 255, 255, 1);
+    -fx-padding: 5px 3px 5px 3px;
+    -fx-font-size: 14px;
+}
+.gray-text-field:focused {
+    -fx-border-color: #909399;
+}
+
+.red-text-field {
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-border-color: rgba(193, 197, 205, 1) rgba(193, 197, 205, 1) rgba(193, 197, 205, 1) rgba(193, 197, 205, 1);
+    -fx-border-width: 1.3px 1.3px 1.3px 1.3px;
+    -fx-accent:  #f89898;
+    -fx-background-color: rgba(255, 255, 255, 1);
+    -fx-padding: 5px 3px 5px 3px;
+    -fx-font-size: 14px;
+}
+.red-text-field:focused {
+    -fx-border-color: #F56C6C;
+}
