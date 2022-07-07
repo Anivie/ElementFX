@@ -73,8 +73,8 @@ Demo path is : src/test/kotlin/testapp/Demo.kt
 
 
 ### todo:
-为每个组件单独调整主题:
-例如：
+为每个组件单独调整主题。  
+Change themes individually for nodes.
 ```
         val regButton = Button("Register").apply {
             theme(ElementButton.orangeButton)
