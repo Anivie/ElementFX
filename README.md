@@ -76,4 +76,4 @@ Supported nodes:
 #### 示例效果：
 Demo path is : src/test/kotlin/testapp/Demo.kt
 
-![Screen](screenshot/screen.png)
+![Screen](screenshot/screen_1.0.png)
