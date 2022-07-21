@@ -7,9 +7,13 @@ JavaFX版本的ElementUi，您可以仅需一行代码而轻松美化您的JavaF
 
 For Java:
 ```
+        Button button = new Button();
+        ElementButtonKt.theme(button, ElementButton.grayButton);
+        
         Scene scene = new Scene(root);
         scene.getStylesheets().add(CssResources.globalCssFile);
         scene.getStylesheets().add(CssResources.buttonCssFile);//可选，用于每个组件可单独调整主题
+        
         /*
         or：
         CssResourcesKt.themes(scene, (strings, cssResources) -> {
@@ -18,6 +22,7 @@ For Java:
             return null;
         });
         */
+        
         primaryStage.setScene(scene);
         primaryStage.setTitle("ElementForJavaFX");
         primaryStage.show();

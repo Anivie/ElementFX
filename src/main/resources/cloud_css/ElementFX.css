@@ -1,13 +1,13 @@
 .button {
-                        -fx-background-color: rgba(236, 245, 255, 1);
-                        -fx-background-radius: 5px 5px 5px 5px;
-                        -fx-border-color: rgba(179, 216, 255, 1) rgba(179, 216, 255, 1) rgba(179, 216, 255, 1) rgba(179, 216, 255, 1);
-                        -fx-border-radius: 5px 5px 5px 5px;
-                        -fx-text-fill: rgba(64, 158, 255, 1);
-                        -fx-font-size: 15px;
-                        -fx-padding: 5px 10px 5px 10px;
-                        -fx-cursor: HAND;
-                    }
+    -fx-background-color: rgba(236, 245, 255, 1);
+    -fx-background-radius: 5px 5px 5px 5px;
+    -fx-border-color: rgba(179, 216, 255, 1) rgba(179, 216, 255, 1) rgba(179, 216, 255, 1) rgba(179, 216, 255, 1);
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-text-fill: rgba(64, 158, 255, 1);
+    -fx-font-size: 15px;
+    -fx-padding: 5px 10px 5px 10px;
+    -fx-cursor: HAND;
+}
 .button:hover {
     -fx-background-color: rgba(64, 158, 255, 1);
     -fx-border-color: rgba(64, 158, 255, 1) rgba(64, 158, 255, 1) rgba(64, 158, 255, 1) rgba(64, 158, 255, 1);
@@ -365,7 +365,7 @@
 .date-picker .text-field {
     -fx-border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
 }
-.date-picker:hover, .date-picker:focused {
+.date-picker:focused {
     -fx-border-color: rgba(64, 169, 255, 1) rgba(64, 169, 255, 1) rgba(64, 169, 255, 1) rgba(64, 169, 255, 1);
 }
 .table-view {

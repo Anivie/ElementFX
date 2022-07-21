@@ -1,6 +1,5 @@
 package devapp
 
-import javafx.scene.Cursor
 import javafx.scene.Cursor.HAND
 import javafx.scene.paint.Color
 import javafx.scene.paint.Color.*
@@ -468,7 +467,7 @@ class CloudStyleGlobal:Stylesheet() {
                 borderColor += box(TRANSPARENT)
             }
 
-            and(hover, focused) {
+            and(focused) {
                 borderColor += box(c(64,169,255))
             }
 
