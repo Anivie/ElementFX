@@ -1,7 +1,6 @@
 package devapp
 
 import javafx.scene.Cursor.HAND
-import javafx.scene.paint.Color
 import javafx.scene.paint.Color.*
 import javafx.scene.paint.Paint
 import javafx.scene.text.FontWeight
@@ -231,6 +230,12 @@ class CloudStyleGlobal:Stylesheet() {
                     prefHeight = 5.px
                     prefWidth = 10.px
                 }
+
+                and(pressed) {
+                    arrow {
+                        backgroundColor += c(103, 106, 113)
+                    }
+                }
             }
 
             child(comboBoxPopup) {
@@ -303,6 +308,16 @@ class CloudStyleGlobal:Stylesheet() {
 
             and(focused) {
                 borderColor += blueBorderColorFocus
+            }
+
+            and(editable) {
+                child(textField) {
+                    borderWidth += box(0.px)
+                }
+
+                child(arrowButton) {
+                    backgroundColor += WHITE
+                }
             }
         }
 
@@ -729,7 +744,7 @@ class CloudStyleGlobal:Stylesheet() {
                     backgroundColor += c(245,247,250)
                 }
                 and(empty) {
-                    backgroundColor += Color.TRANSPARENT
+                    backgroundColor += TRANSPARENT
                 }
 
                 treeDisclosureNode {

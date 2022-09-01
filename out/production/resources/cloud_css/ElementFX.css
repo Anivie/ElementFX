@@ -1,13 +1,13 @@
 .button {
-                        -fx-background-color: rgba(236, 245, 255, 1);
-                        -fx-background-radius: 5px 5px 5px 5px;
-                        -fx-border-color: rgba(179, 216, 255, 1) rgba(179, 216, 255, 1) rgba(179, 216, 255, 1) rgba(179, 216, 255, 1);
-                        -fx-border-radius: 5px 5px 5px 5px;
-                        -fx-text-fill: rgba(64, 158, 255, 1);
-                        -fx-font-size: 15px;
-                        -fx-padding: 5px 10px 5px 10px;
-                        -fx-cursor: HAND;
-                    }
+    -fx-background-color: rgba(236, 245, 255, 1);
+    -fx-background-radius: 5px 5px 5px 5px;
+    -fx-border-color: rgba(179, 216, 255, 1) rgba(179, 216, 255, 1) rgba(179, 216, 255, 1) rgba(179, 216, 255, 1);
+    -fx-border-radius: 5px 5px 5px 5px;
+    -fx-text-fill: rgba(64, 158, 255, 1);
+    -fx-font-size: 15px;
+    -fx-padding: 5px 10px 5px 10px;
+    -fx-cursor: HAND;
+}
 .button:hover {
     -fx-background-color: rgba(64, 158, 255, 1);
     -fx-border-color: rgba(64, 158, 255, 1) rgba(64, 158, 255, 1) rgba(64, 158, 255, 1) rgba(64, 158, 255, 1);
@@ -171,6 +171,9 @@
     -fx-pref-height: 5px;
     -fx-pref-width: 10px;
 }
+.combo-box > .arrow-button:pressed .arrow {
+    -fx-background-color: rgba(103, 106, 113, 1);
+}
 .combo-box > .combo-box-popup .list-view {
     -fx-border-color: rgba(228, 231, 237, 1) rgba(228, 231, 237, 1) rgba(228, 231, 237, 1) rgba(228, 231, 237, 1);
 }
@@ -230,6 +233,12 @@
 }
 .combo-box:focused {
     -fx-border-color: rgba(50, 150, 255, 1) rgba(50, 150, 255, 1) rgba(50, 150, 255, 1) rgba(50, 150, 255, 1);
+}
+.combo-box:editable > .text-field {
+    -fx-border-width: 0px 0px 0px 0px;
+}
+.combo-box:editable > .arrow-button {
+    -fx-background-color: rgba(255, 255, 255, 1);
 }
 .check-box {
     -fx-font-size: 14px;
@@ -365,7 +374,7 @@
 .date-picker .text-field {
     -fx-border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
 }
-.date-picker:hover, .date-picker:focused {
+.date-picker:focused {
     -fx-border-color: rgba(64, 169, 255, 1) rgba(64, 169, 255, 1) rgba(64, 169, 255, 1) rgba(64, 169, 255, 1);
 }
 .table-view {

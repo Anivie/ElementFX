@@ -1,12 +1,11 @@
 package devapp.treeview
 
 import devapp.CloudStyleGlobal
-import javafx.scene.control.Button
-import javafx.scene.control.TabPane
-import javafx.scene.control.TreeItem
+import javafx.util.StringConverter
 import tornadofx.*
 
 class treeview : View() {
+/*
     override val root = stackpane {
         val persons = listOf(
             Person("Mary Hanes", "Marketing"),
@@ -42,6 +41,25 @@ class treeview : View() {
         addStylesheet(TreeClass::class)
         addStylesheet(CloudStyleGlobal::class)
     }
-}
+*/
 
-data class Person(val name: String, val department: String)
+    override val root = stackpane {
+        combobox(values = listOf(Ports(21)).asObservable()) {
+            converter = object : StringConverter<Ports>() {
+                override fun toString(`object`: Ports?): String {
+                    return `object`?.port.toString()
+                }
+
+                override fun fromString(string: String?): Ports {
+                    return Ports(21)
+                }
+            }
+
+            isEditable = true
+        }
+        addStylesheet(CloudStyleGlobal::class)
+    }
+
+    data class Ports(val port: Int)
+
+}
