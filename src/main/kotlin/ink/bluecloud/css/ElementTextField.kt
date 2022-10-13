@@ -11,5 +11,6 @@ enum class ElementTextField(val style: String) {
 }
 
 fun TextField.theme(theme: ElementTextField) {
+    styleClass.clear()
     styleClass += theme.style
 }
