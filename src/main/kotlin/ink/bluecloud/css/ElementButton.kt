@@ -12,6 +12,9 @@ enum class ElementButton(val style: String) {
 }
 
 fun Button.theme(theme: ElementButton) {
-    styleClass.clear()
-    styleClass += theme.style
+    styleClass.first().run {
+        styleClass.clear()
+        styleClass += this
+        styleClass += theme.style
+    }
 }
