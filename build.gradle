@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'ink.bluecloud'
-version = '1.0-SNAPSHOT'
+version = '1.3-SNAPSHOT'
 
 repositories {
     mavenLocal()
@@ -30,7 +30,7 @@ dependencies {
 }
 
 javafx {
-    version = '18.0.2'
+    version = '19'
     modules = ['javafx.controls']
 }
 
@@ -40,6 +40,7 @@ test {
 
 compileKotlin {
     kotlinOptions.jvmTarget = '17'
+//    kotlinOptions.useK2 = true
 }
 
 compileTestKotlin {

@@ -104,9 +104,8 @@ class Demo:Application() {
     private fun Stage.init(root: TabPane) {
         scene = Scene(root,400.0,400.0).apply {
             themes {
-                this += it.globalCssFile
-                this += it.buttonCssFile
-                this += it.textFieldCssFile
+                it += globalCssFile
+                it += buttonCssFile
             }
         }
         title = "Element"

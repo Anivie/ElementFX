@@ -8,9 +8,9 @@ object CssResources {
     const val textFieldCssFile = "cloud_css/ElementTextField.css"
 }
 
-fun Scene.themes(block: MutableList<String>.(CssResources) -> Unit) {
+fun Scene.themes(block: CssResources.(MutableList<String>) -> Unit) {
     buildList {
-        block(CssResources)
+        CssResources.block(this)
 
         if (indexOf(CssResources.globalCssFile) > 0) {
             this -= CssResources.globalCssFile
