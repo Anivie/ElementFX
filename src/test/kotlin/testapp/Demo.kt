@@ -71,7 +71,6 @@ class Demo:Application() {
                 }
             }
 
-
             tabs += Tab("BusinessUsers").apply {
                 content = VBox(5.0).apply {
                     children += TextField().apply {
@@ -104,8 +103,8 @@ class Demo:Application() {
     private fun Stage.init(root: TabPane) {
         scene = Scene(root,400.0,400.0).apply {
             themes {
-                it += globalCssFile
-                it += buttonCssFile
+//                it += globalCssFile
+//                it += buttonCssFile
             }
         }
         title = "Element"
